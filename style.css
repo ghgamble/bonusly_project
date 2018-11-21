@@ -10,7 +10,7 @@ h2, h3, p {
       font-family: "Open Sans", "Arial Bold", Gadget, sans-serif;
 }
 p {
-      overflow: scroll;
+      overflow: auto;
 }
 /* Body */
 body {
