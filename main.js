@@ -8,8 +8,7 @@ $(function(){
       fetch('https://bonus.ly/api/v1/bonuses', {
           method: 'get',
           headers: new Headers({
-              'Authorization': 'Bearer '+token,
-              'Content-Type': 'application/x-www-form-urlencoded'
+              'Authorization': 'Bearer '+token
           })
       })
       .then(response => response.json())
